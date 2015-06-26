@@ -2,7 +2,7 @@ Pages = new Mongo.Collection('pages');
 
 Pages.schema = new SimpleSchema({
   title: {
-    type: String
+    type: [String]
   },
   slug: {
     type: String,
