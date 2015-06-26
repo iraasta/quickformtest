@@ -44,7 +44,7 @@ Posts.schema = new SimpleSchema({
     Title
   */
   title: {
-    type: String,
+    type: [String],
     optional: false,
     editableBy: ["member", "admin"]
   },
